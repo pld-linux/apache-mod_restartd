@@ -1,6 +1,6 @@
 %define		apxs		/usr/sbin/apxs
 Summary:	mod_restartd - run certain CGIs as root
-Summary(pl):	mod_restartd - uruchamianie pewnych CGI z uprawnieniami roota
+Summary(pl.UTF-8):   mod_restartd - uruchamianie pewnych CGI z uprawnieniami roota
 Name:		mod_restartd
 Version:	1.0.3
 Release:	0.1
@@ -27,14 +27,14 @@ like to run as root for security reasons. This module allows CGIs to
 be run as root by copying the the mod_cgid and fixing it so that only
 certain CGIs may be run as root.
 
-%description -l pl
-Modu³ Apache'a 2 do wykonywania suidowych CGI. Admin Server udostêpnia
-CGI do zatrzymywania, uruchamiania i restartowania serwerów
-dzia³aj±cych na porcie 389, co oznacza, ¿e musz± byæ uruchamiane jako
-root. Jednak Apache nie lubi dzia³aæ jako root ze wzglêdów
-bezpieczeñstwa. Ten modu³ pozwala na wykonywanie CGI jako root poprzez
-skopiowanie mod_cgid i poprawienie tak, by pozwala³ na wykonywanie
-jako root tylko okre¶lonych CGI.
+%description -l pl.UTF-8
+ModuÅ‚ Apache'a 2 do wykonywania suidowych CGI. Admin Server udostÄ™pnia
+CGI do zatrzymywania, uruchamiania i restartowania serwerÃ³w
+dziaÅ‚ajÄ…cych na porcie 389, co oznacza, Å¼e muszÄ… byÄ‡ uruchamiane jako
+root. Jednak Apache nie lubi dziaÅ‚aÄ‡ jako root ze wzglÄ™dÃ³w
+bezpieczeÅ„stwa. Ten moduÅ‚ pozwala na wykonywanie CGI jako root poprzez
+skopiowanie mod_cgid i poprawienie tak, by pozwalaÅ‚ na wykonywanie
+jako root tylko okreÅ›lonych CGI.
 
 %prep
 %setup -q -n mod_restartd-%{version}
