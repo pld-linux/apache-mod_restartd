@@ -1,6 +1,6 @@
 %define		apxs		/usr/sbin/apxs
 Summary:	mod_restartd - run certain CGIs as root
-Summary(pl.UTF-8):   mod_restartd - uruchamianie pewnych CGI z uprawnieniami roota
+Summary(pl.UTF-8):	mod_restartd - uruchamianie pewnych CGI z uprawnieniami roota
 Name:		mod_restartd
 Version:	1.0.3
 Release:	0.1
