@@ -9,7 +9,7 @@ Group:		Networking/Daemons
 Source0:	http://directory.fedora.redhat.com/sources/mod_restartd-%{version}.tar.gz
 # Source0-md5:	6336780a292dbd41d2cc66212f3be7fa
 URL:		http://directory.fedora.redhat.com/wiki/Mod_restartd
-BuildRequires:	%{apxs}
+BuildRequires:	apache-apxs >= 2.2
 BuildRequires:	apache-devel >= 2.2
 BuildRequires:	apr-devel >= 1:1.0
 BuildRequires:	apr-util-devel >= 1:1.0
