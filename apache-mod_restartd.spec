@@ -5,7 +5,7 @@ Name:		mod_restartd
 Version:	1.0.3
 Release:	0.1
 License:	Apache 2.0
-Group:		Networking/Daemons
+Group:		Networking/Daemons/HTTP
 Source0:	http://directory.fedora.redhat.com/sources/mod_restartd-%{version}.tar.gz
 # Source0-md5:	6336780a292dbd41d2cc66212f3be7fa
 URL:		http://directory.fedora.redhat.com/wiki/Mod_restartd
